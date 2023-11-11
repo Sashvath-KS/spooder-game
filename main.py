@@ -45,8 +45,8 @@ score=0
 nuke=pygame.image.load('assets/nuke2.png').convert_alpha()
 velocity_nuke=5
 g=0.2
-explosion_cloud=pygame.image.load('assets/explosion.png')
 nuke_list=[]
+explosion_cloud=pygame.image.load('assets/explosion.png')
 
 #timer which activates every 0.7 seconds to spawn a nuke
 nuke_timer=pygame.USEREVENT+1
